@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/bnr_241122_660x.jpg?v=1732239747",
+    "likes": 123
+  },
+  {
+    "id": 2,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/bnr_20240927_660x.jpg?v=1727333631",
+    "likes": 840
+  }
+  ,
+  {
+    "id": 3,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/ck_restaurant_bn1200_660x.jpg?v=1724836437",
+    "likes": 550
+  },
+  {
+    "id": 4,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/cksushi_nui01_bnr_660x.jpg?v=1725584408",
+    "likes": 670
+  }
+  ,
+  {
+    "id": 5,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/bnr_buta_20240319_7ac4902b-4c8f-48b3-8b08-4380878bd5eb_660x.jpg?v=1710811609",
+    "likes": 740
+  },
+  {
+    "id": 6,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/bnr_241029_660x.jpg?v=1730103076",
+    "likes": 990
+  }
+  ,
+  {
+    "id": 7,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/bnr_241226_660x.jpg?v=1735116223",
+    "likes": 550
+  },
+  {
+    "id": 8,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/bnr_241025_660x.jpg?v=1729760623",
+    "likes": 1020
+  }
+  ,
+  {
+    "id": 9,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/bnr_20240404_660x.jpg?v=1711504030",
+    "likes": 780
+  },
+  {
+    "id": 10,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/03_157334dc-3706-46dc-a190-5979c355d969_660x.jpg?v=1720746385",
+    "likes": 810
+  }
+  ,
+  {
+    "id": 11,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/cho-magical_230926_660x.jpg?v=1695720214",
+    "likes": 290
+  },
+  {
+    "id": 12,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/image_1_1e13eac2-beb0-40fb-b924-0015a7f95ecd_800x.jpg?v=1736924391",
+    "likes": 840
+  }
+  ,
+  {
+    "id": 13,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/image_10_394x.jpg?v=1723179126",
+    "likes": 330
+  },
+  {
+    "id": 14,
+    "image": "https://chiikawamarket.jp/cdn/shop/files/IMG_6293_6cb22a22-19d2-4b2a-a03a-ada961f43155_800x.jpg?v=1710203455",
+    "likes": 620
+  }
+  ,
+  {
+    "id": 15,
+    "image": "https://chiikawamarket.jp/cdn/shop/products/4582662913387_2_700x.jpg?v=1715215414",
+    "likes": 1268
+  }
+  ,
+  {
+    "id": 16,
+    "image": "https://rakuraku-jp.com/cdn/shop/articles/241225_Blog-__1200x690_565ce9d3-a058-457e-9c97-f658e1983a57.png?v=1737356121",
+    "likes": 930
+  }
+  ,
+  {
+    "id": 17,
+    "image": "https://img.boutirapp.com/i/RUygwyT5CL0eyaFLVbRLvn7S6B4XXmYaa-TdduGil1f",
+    "likes": 370
+  }
+  ,
+  {
+    "id": 18,
+    "image": "https://scontent.frmq3-1.fna.fbcdn.net/v/t39.30808-6/474745719_1040793991423336_2824106336118459049_n.jpg?stp=dst-jpg_p526x296_tt6&_nc_cat=106&ccb=1-7&_nc_sid=127cfc&_nc_ohc=asSIRwS9vjEQ7kNvgF1URrK&_nc_zt=23&_nc_ht=scontent.frmq3-1.fna&_nc_gid=A6fOkiHDg6WtWwSukie3fmU&oh=00_AYBmjiOBpE5jPJtKMZAx5QYiMv2JSe2-V5xX5oXj8Ylbqw&oe=67A2659A",
+    "likes": 586
+  }
+]
