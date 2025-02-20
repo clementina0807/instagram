@@ -48,18 +48,18 @@ setInterval(() => {
   <main>
     <div class="wrapper" style="min-height: 100vh;">
       <header class="flex w-full p-4 items-center justify-between">
-        <div class="logo-container w-1/3 bg-cover bg-center mr-4" alt="Instagram"></div>
+        <div class="logo-container w-1/3 bg-cover bg-center mx-4 scale-150" alt="Instagram"></div>
         <div class="relative w-full">
-          <div class="flex items-center w-full">
-            <div class="relative flex items-center w-full">
+          <div class="flex items-center w-full justify-end ">
+            <!-- <div class="relative flex items-center w-full">
               <i class="fa-solid fa-magnifying-glass absolute left-3 text-gray-500"></i>
               <input
                 class="pl-10 pr-4 bg-slate-200 rounded h-9 w-full"
                 @keydown.enter="search"
                 placeholder="搜尋"/>
-            </div>
+            </div> -->
             <i @click="handleClick" class="fa-regular fa-heart cursor-pointer ml-4 text-gray-500 hover:text-red-500" style="font-size:24px"></i>
-            <i class="fa-regular fa-comment-dots ml-4" style="font-size:24px"></i>
+            <i class="fa-regular fa-comment-dots ml-4" @click="changePage('./message')" style="font-size:24px"></i>
           </div>
         </div>
       </header>
@@ -67,7 +67,7 @@ setInterval(() => {
       <div class="stories-container flex space-x-4 overflow-x-scroll p-4 bg-gray-100">
         <div v-for="(item, index) in items" :key="index" class="story-item flex-shrink-0 w-20 h-20 rounded-full bg-gradient-to-tr from-pink-500 to-yellow-500 p-1">
           <div class="story-content w-full h-full bg-white rounded-full flex items-center justify-center">
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCy08frEVGefT1ZU4tgqhFRS4VRAfXBELFcC1qFC_hN06Z9EdMzf4yl9Huls6NgM_EzTU&usqp=CAU" alt="Profile" class="rounded-full">
+            <img src="https://pbs.twimg.com/profile_images/1869789271995084800/hXyGknPC_400x400.jpg" alt="Profile" class="rounded-full">
           </div>
         </div>
       </div>

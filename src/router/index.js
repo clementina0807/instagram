@@ -22,6 +22,21 @@ const routes = [
     name: 'personal',
     component: () => import('@/views/Personal/index.vue')
   },
+  {
+    path: '/postdetail/:id',
+    name: 'postdetail',
+    component: () => import('@/views/Postdetail/index.vue')
+  },
+  {
+    path: '/video',
+    name: 'video',
+    component: () => import('@/views/Video/index.vue')
+  },
+  {
+    path: '/message',
+    name: 'message',
+    component: () => import('@/views/Message/index.vue')
+  },
 ];
 
 const router = createRouter({   
