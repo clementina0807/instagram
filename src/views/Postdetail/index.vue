@@ -5,7 +5,6 @@ import productData from '@/mock/data/product.json';
 import dayjs from 'dayjs';
 import relativeTime from 'dayjs/plugin/relativeTime';
 
-// 使用 useRouter 來進行頁面跳轉
 const router = useRouter();
 const route = useRoute();
 const postId = ref(route.params.id);
@@ -14,7 +13,6 @@ const post = ref(null);
 dayjs.extend(relativeTime);
 
 onMounted(() => {
-  // 獲取貼文詳情
   post.value = productData.find(item => item.id === Number(postId.value));
 });
 
@@ -55,5 +53,4 @@ const formattedTime = computed(() => {
 </template>
 
 <style scoped>
-/* 添加必要的樣式 */
 </style>

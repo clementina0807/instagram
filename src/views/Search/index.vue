@@ -22,7 +22,6 @@ const getCategory = () => {
 };
 
 onMounted(() => {
-  // 過濾產品數據
   getCategory();
 });
 </script>
@@ -40,11 +39,10 @@ onMounted(() => {
         />
       </div>
     </div>
-    <div class="grid grid-cols-3 gap-2 p-4 ">
-      <!-- 單個貼文 -->
-      <div v-for="(post, index) in filteredProducts" :key="index" class="relative w-full group">
+    <div class="grid grid-cols-3 gap-2 p-4 bg-gray-100 border-black border">
+      <div v-for="(post, index) in filteredProducts" :key="index" class="relative w-full aspect-square bg-gray-300 border-black border">
         <img :src="post.image" alt="Post Image" class="w-full h-full object-cover">
-        <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 flex items-center justify-center text-white font-bold text-xl transition-opacity duration-300">
+        <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 hover:opacity-100 flex items-center justify-center text-white font-bold text-xl">
           ❤️ {{ post.likes }}
         </div>
       </div>
@@ -53,6 +51,5 @@ onMounted(() => {
 </template>
 
 <style scoped>
-
 </style>
 

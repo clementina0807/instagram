@@ -3,6 +3,10 @@ import Home from '@/views/Home/index.vue'
 
 const routes = [
   {
+    path: '/',
+    redirect: '/home'
+  },
+  {
     path: '/home',
     name: 'home',
     component: Home
@@ -36,6 +40,16 @@ const routes = [
     path: '/message',
     name: 'message',
     component: () => import('@/views/Message/index.vue')
+  },
+  {
+    path: '/storyviewer',
+    name: 'storyviewer',
+    component: () => import('@/views/StoryViewer/index.vue')
+  },
+   {
+    path: '/notice',
+    name: 'notice',
+    component: () => import('@/views/notice/index.vue')
   },
 ];
 

@@ -3,7 +3,6 @@ import { ref, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import productData from '@/mock/data/product.json';
 
-// 使用 useRouter 來進行頁面跳轉
 const router = useRouter();
 const changePage = (url) => {
   router.push(url);
@@ -24,7 +23,6 @@ const getCategory = () => {
 };
 
 onMounted(() => {
-  // 過濾產品數據
   getCategory();
 });
 
@@ -42,9 +40,7 @@ onMounted(() => {
     </div>
   </div>
   <div class="flex flex-col items-center">
-    <!-- 頭像與數據組合在同一行 -->
     <div class="flex w-full pt-8 items-center justify-center mr-8 text-center">
-      <!-- 頭像 -->
       <img
         src="https://esse.ismcdn.jp/mwimgs/5/4/-/img_54139033807d0d85218ea534cdb45b28447294.jpg"
         alt=""
@@ -52,7 +48,6 @@ onMounted(() => {
         style="width: 60px; height: 60px;"
       />
 
-      <!-- 貼文/粉絲/追蹤中 -->
       <div class="flex">
         <div v-for="(item, index) in stats" :key="index" class="mx-4">
           <p class="font-bold">{{ item.value }}</p>
@@ -61,7 +56,6 @@ onMounted(() => {
       </div>
     </div>
   </div>
-  <!-- 使用者名稱 -->
   <p class="font-bold mt-4 scale-110 mx-8">{{ username }}</p>
 
   <div class="flex w-full justify-around pt-6 scale-110">
@@ -72,7 +66,6 @@ onMounted(() => {
   </div>
 
   <div class="grid grid-cols-3 p-0 mt-8">
-    <!-- 單個貼文 -->
     <div v-for="(post, index) in filteredProducts" :key="index" class="relative w-full aspect-square ">
       <img :src="post.image" alt="Post Image" class="w-full h-full object-cover">
       <div class="absolute inset-0 bg-black bg-opacity-40 opacity-0 hover:opacity-100 flex items-center justify-center text-white font-bold text-xl" @click="changePage(`/postdetail/${post.id}`)">
@@ -82,5 +75,4 @@ onMounted(() => {
 </template>
 
 <style scoped>
-/* 添加必要的樣式 */
 </style>

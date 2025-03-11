@@ -15,25 +15,21 @@ const items = ref([
   { id: 10, image: 'https://livedoor.blogimg.jp/anigei-mangabox/imgs/b/5/b5aa1349.jpg', name: 'あのこ', number: 5 }
 
 ]);
-// 定義 items 陣列
-
 const search = () => {
   console.log('Search triggered with query:', searchInput.value);
-  // 在這裡添加搜索邏輯
 };
 
-// 自動滾動的功能（可選）
 let scrollPosition = 0;
 setInterval(() => {
-  scrollPosition += 100; // 每次滾動 100px
+  scrollPosition += 100; 
   if (scrollPosition >= storiesContainer.scrollWidth) {
-    scrollPosition = 0; // 滾動到結尾後返回
+    scrollPosition = 0; 
   }
   storiesContainer.scrollTo({
     left: scrollPosition,
     behavior: 'smooth',
   });
-}, 3000); // 每 3 秒滾動一次
+}, 3000);
 </script>
 
 <template>
@@ -70,5 +66,4 @@ setInterval(() => {
 </template>
 
 <style scoped>
-/* 添加必要的樣式 */
 </style>
